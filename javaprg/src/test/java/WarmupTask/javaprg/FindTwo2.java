@@ -18,7 +18,7 @@ public class FindTwo2 {
 				
 			}
 		}
-		System.out.println(output);
+		System.out.println("Output is:"+output);
 		return output;
 	}
 	
