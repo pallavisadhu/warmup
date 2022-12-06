@@ -34,5 +34,18 @@ public class FindTwo2 {
 		actual.add(6);
 		Assert.assertEquals(actual, expected);
 	}
+	
+	@Test
+	public void testCase2() {
+		ArrayList<Integer> al =new ArrayList<Integer>();
+		al.add(6);
+		al.add(2);
+		al.add(0);
+		ArrayList<Integer> expected = two2(al);
+		ArrayList<Integer> actual = new ArrayList<Integer>();
+		actual.add(4);
+		actual.add(0);
+		Assert.assertEquals(actual, expected);
+	}
 
 }

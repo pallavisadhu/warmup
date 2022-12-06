@@ -5,7 +5,7 @@
     <classes>
       <class name="WarmupTask.javaprg.FindTwo2">
         <methods>
-          <include name="testCase1"/>
+          <include name="testCase2"/>
         </methods>
       </class> <!-- WarmupTask.javaprg.FindTwo2 -->
     </classes>
