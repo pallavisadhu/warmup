@@ -26,12 +26,12 @@ public class FindTwo2 {
 	@Test
 	public void testCase1() {
 		ArrayList<Integer> al =new ArrayList<Integer>();
-		al.add(0);
-		al.add(66);
-		al.add(1);
+		al.add(3);
+		al.add(6);
+		al.add(11);
 		ArrayList<Integer> expected = two2(al);
 		ArrayList<Integer> actual = new ArrayList<Integer>();
-		actual.add(0);
+		actual.add(6);
 		Assert.assertEquals(actual, expected);
 	}
 
