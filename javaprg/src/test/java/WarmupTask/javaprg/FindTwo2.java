@@ -32,7 +32,6 @@ public class FindTwo2 {
 		ArrayList<Integer> expected = two2(al);
 		ArrayList<Integer> actual = new ArrayList<Integer>();
 		actual.add(0);
-		//actual.add(6);
 		Assert.assertEquals(actual, expected);
 	}
 
