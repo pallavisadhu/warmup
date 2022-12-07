@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< Updated upstream
-  <suite started-at="2022-12-06T13:04:59 CST" name="Default suite" finished-at="2022-12-06T13:04:59 CST" duration-ms="115">
+  <suite started-at="2022-12-07T15:50:47 CST" name="Default suite" finished-at="2022-12-07T15:50:47 CST" duration-ms="85">
     <groups>
     </groups>
-    <test started-at="2022-12-06T13:04:59 CST" name="Default test" finished-at="2022-12-06T13:04:59 CST" duration-ms="115">
-      <class name="WarmupTask.javaprg.FindTwo2">
-        <test-method signature="testCase1()[pri:0, instance:WarmupTask.javaprg.FindTwo2@6bedbc4d]" started-at="2022-12-06T13:04:59 CST" name="testCase1" finished-at="2022-12-06T13:04:59 CST" duration-ms="26" status="PASS">
-=======
-  <suite started-at="2022-12-06T13:02:21 CST" name="Default suite" finished-at="2022-12-06T13:02:21 CST" duration-ms="95">
-    <groups>
-    </groups>
-    <test started-at="2022-12-06T13:02:21 CST" name="Default test" finished-at="2022-12-06T13:02:21 CST" duration-ms="95">
-      <class name="WarmupTask.javaprg.FindTwo2">
-        <test-method signature="testCase1()[pri:0, instance:WarmupTask.javaprg.FindTwo2@932bc4a]" started-at="2022-12-06T13:02:21 CST" name="testCase1" finished-at="2022-12-06T13:02:21 CST" duration-ms="17" status="PASS">
->>>>>>> Stashed changes
+    <test started-at="2022-12-07T15:50:47 CST" name="Default test" finished-at="2022-12-07T15:50:47 CST" duration-ms="85">
+      <class name="WarmupTask.javaprg.Make2Numbers">
+        <test-method signature="testCase1()[pri:0, instance:WarmupTask.javaprg.Make2Numbers@2fd1433e]" started-at="2022-12-07T15:50:47 CST" name="testCase1" finished-at="2022-12-07T15:50:47 CST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:0, instance:WarmupTask.javaprg.FindTwo2@932bc4a]" started-at="2022-12-06T13:02:21 CST" name="testCase2" finished-at="2022-12-06T13:02:21 CST" duration-ms="1" status="PASS">
+        <test-method signature="testCase2()[pri:0, instance:WarmupTask.javaprg.Make2Numbers@2fd1433e]" started-at="2022-12-07T15:50:47 CST" name="testCase2" finished-at="2022-12-07T15:50:47 CST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
-      </class> <!-- WarmupTask.javaprg.FindTwo2 -->
+        <test-method signature="testCase3()[pri:0, instance:WarmupTask.javaprg.Make2Numbers@2fd1433e]" started-at="2022-12-07T15:50:47 CST" name="testCase3" finished-at="2022-12-07T15:50:47 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- WarmupTask.javaprg.Make2Numbers -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
