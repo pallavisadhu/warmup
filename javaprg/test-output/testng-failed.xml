@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WarmupTask.javaprg.Make2Numbers">
+      <class name="WarmupTask.javaprg.NotEndingWithNine">
         <methods>
+          <include name="testCase1"/>
+          <include name="testCase2"/>
           <include name="testCase3"/>
         </methods>
-      </class> <!-- WarmupTask.javaprg.Make2Numbers -->
+      </class> <!-- WarmupTask.javaprg.NotEndingWithNine -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

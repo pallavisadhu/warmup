@@ -14,12 +14,10 @@ public class Make2Numbers {
 		if(len>=2) {
 			for(int j=0;j<2;j++)
 			result[j] = a[j];
-		}else if(len>=1 && len<2) {
-			for(int j=0;j<1;j++)
-			{
+		}else if(len==1) {
+		
 				result[0] = a[0];
-				result[1]=b[j];
-			}
+				result[1]=b[0];
 		}else {
 			for(int j=0;j<2;j++) {
 				result[j]=b[j];
@@ -61,6 +59,15 @@ public class Make2Numbers {
 		
 		int[] output = make2(a,b);
 		int[] expected = {4,1};
+		Assert.assertEquals(output, expected);
+	}
+	@Test
+	public void testCase4() {
+		int[] a= {1};
+		int[] b= {};
+		
+		int[] output = make2(a,b);
+		int[] expected = {};
 		Assert.assertEquals(output, expected);
 	}
 
