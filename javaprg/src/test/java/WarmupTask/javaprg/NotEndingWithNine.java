@@ -39,9 +39,8 @@ public class NotEndingWithNine {
 		input.add(2);
 		input.add(19);
 		ArrayList<Integer> output = no9(input);
-		output.add(1);
-		output.add(2);
-		Assert.assertEquals(input, output);
+		
+		Assert.assertTrue(output.size()==2);
 		
 	}
 	
@@ -53,8 +52,8 @@ public class NotEndingWithNine {
 		input.add(29);
 		input.add(3);
 		ArrayList<Integer> output = no9(input);
-		output.add(3);
-		Assert.assertEquals(input, output);
+		
+		Assert.assertTrue(input.contains(3));
 
 		
 	}
@@ -65,9 +64,8 @@ public class NotEndingWithNine {
 		input.add(-2);
 		input.add(-19);
 		ArrayList<Integer> output = no9(input);
-		//output.add(1);
-		//output.add(2);
-		Assert.assertEquals(input, output);
+		
+		Assert.assertTrue(output.size()==0);
 
 		
 	}
