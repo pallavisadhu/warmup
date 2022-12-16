@@ -14,6 +14,7 @@ public class WordsWithoutList {
 				al.add(words[i]);
 			}
 		}
+		System.out.println(al);
 		return al;
 	}
 	
@@ -33,6 +34,35 @@ public class WordsWithoutList {
 		int len=3;
 		ArrayList<String> output = wordsWithoutList(words,len);
 		Assert.assertFalse(output.contains("ccc"));
+	}
+	@Test
+	public void testCase3() {
+		String[] words = {"a","bb","b","ccc"};
+		int len=4;
+		ArrayList<String> output = wordsWithoutList(words,len);
+		Assert.assertTrue(output.contains("ccc"));
+	}
+	@Test
+	public void testCase4() {
+		String[] words = {"a","bb","b","ccc"};
+		int len=0;
+		ArrayList<String> output = wordsWithoutList(words,len);
+		Assert.assertTrue(output.contains("ccc"));
+	}
+	
+	@Test
+	public void testCase5() {
+		String[] words = {"a","bb","b","ccc"};
+		int len=-1;
+		ArrayList<String> output = wordsWithoutList(words,len);
+		Assert.assertTrue(output.contains("ccc"));
+	}
+	@Test
+	public void testCase6() {
+		String[] words = {"20"};
+		int len=2;
+		ArrayList<String> output = wordsWithoutList(words,len);
+		Assert.assertTrue(output.size()==0);
 	}
 
 }
